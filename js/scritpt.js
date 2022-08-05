@@ -94,22 +94,26 @@
 // console.log(abs);
 
 
-const num = 100;
 
-switch(num) {
-    case 50:
-        console.log('more');
-        break;
-    case 180:
-        console.log('less');
-        break;
-    case 100:
-        console.log('done');
-        break;
-    default:
-        console.log('not');
+// const num = 180;
+
+// switch(num) {
+//     case 50:
+//         console.log('more');
+//         break;
+//     case 180:
+//         console.log('less');
+//         break;
+//     case 100:
+//         console.log('done');
+//         break;
+//     default:
+//         console.log('not');
+// }
+
+
+let incr = 10;
+
+for (let i = 5; i <= incr; ++i) {
+    console.log(i);
 }
-
-
-
-
